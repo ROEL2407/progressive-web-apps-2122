@@ -1,0 +1,26 @@
+{
+  "name": "progressive-web-apps-2122",
+  "version": "1.0.0",
+  "description": "![pwa](https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROEL2407/progressive-web-apps-2122.git"
+  },
+  "author": "Roel Komen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROEL2407/progressive-web-apps-2122/issues"
+  },
+  "homepage": "https://github.com/ROEL2407/progressive-web-apps-2122#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
