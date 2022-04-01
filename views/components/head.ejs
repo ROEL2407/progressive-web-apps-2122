@@ -4,4 +4,17 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="manifest" href="manifest.json">
     <script src="https://kit.fontawesome.com/ddc56388de.js" crossorigin="anonymous"></script> <!-- icons -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                this.navigator.serviceWorker.register('/serviceworker.js')
+                    .then(function (registration) {
+                        return registration.update()
+                    })
+                    .catch(function (error) {
+                        console.log(error)
+                    })
+            })
+        }
+    </script>
     <title>Rijksmuseum</title>
