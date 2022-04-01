@@ -1,20 +1,22 @@
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="manifest" href="manifest.json">
-    <script src="https://kit.fontawesome.com/ddc56388de.js" crossorigin="anonymous"></script> <!-- icons -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                this.navigator.serviceWorker.register('/serviceworker.js')
-                    .then(function (registration) {
-                        return registration.update()
-                    })
-                    .catch(function (error) {
-                        console.log(error)
-                    })
-            })
-        }
-    </script>
-    <title>Rijksmuseum</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="manifest" href="manifest.json">
+        <script src="https://kit.fontawesome.com/ddc56388de.js" crossorigin="anonymous"></script> <!-- icons -->
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function () {
+                    this.navigator.serviceWorker.register('/serviceworker.js')
+                        .then(function (registration) {
+                            return registration.update()
+                        })
+                        .catch(function (error) {
+                            console.log(error)
+                        })
+                })
+            }
+        </script>
+        <title>Rijksmuseum</title>
+    </head>
