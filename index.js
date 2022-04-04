@@ -24,6 +24,12 @@ app.get("/", (req, res) => {
     .catch((err) => res.send(err));
 });
 
+app.get("/offline", (req, res) => {
+  res.render("offline", {
+    pageTitle: "offline",
+  });
+});
+
 app.listen(port, () => {
   console.log(`Now listening on port ${port}`);
 });
