@@ -47,6 +47,7 @@ body header {
     color: white;
     border-bottom: 1px solid black;
     z-index: 2;
+    padding: 0.5em;
 }
 #refresh {
     color: white;
@@ -63,14 +64,9 @@ header h1 {
     cursor: pointer;
 }
 
-#search_btn i.fa-search {
-    width: 2.125em;
-    height: 2.125em;
-    font-size: 25px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#search_btn svg {
+    height: 4vh;
+    fill: white;
 }
 
 main {
