@@ -36,21 +36,6 @@
             </a>
             <% }) %>
         </section>
-        <section id="info_boxes">
-            <% data.forEach(function(item) { %>
-            <article class="infobox" data-routes="<%- item.id %>" id="info-box_<%- item.id %>">
-                <button class="close_popup">
-                    <div></div>
-                    <div></div>
-                </button>
-                <div>
-                    <img src=<%- item.webImage.url.slice(0, -3) + "=s1000" %> alt="<%- item.title %>">
-                </div>
-                <h2><%- item.title %></h2>
-                <p><%- item.principalOrFirstMaker %></p>
-            </article>
-            <% }) %>
-        </section>
     </main>
 </body>
 
