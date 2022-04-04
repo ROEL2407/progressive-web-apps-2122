@@ -14,10 +14,12 @@
       <article class="infobox">
         <div>
             <% if(data.hasImage == true){ %> <img class="detailImage" src= <%-
-            data.webImage.url.slice(0, -3) + "=s1000" %>> <% } %>
+            data.webImage.url.slice(0, -3) + "=s1000" %> alt="listenn to description"> <% } %>
         </div>
         <h2><%- data.title %></h2>
-        <p><%- data.principalOrFirstMaker %></p>
+        <p><strong>Maker:</strong> <%- data.principalOrFirstMaker %></p><br />
+        <p><strong>Beschrijving:</strong> <%- data.plaqueDescriptionDutch %></p>
+        <p></p>
         </section>
       </article>
   </body>

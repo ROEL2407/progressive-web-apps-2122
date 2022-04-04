@@ -201,12 +201,6 @@ article.infobox {
     color: white;
 }
 
-.infobox div {
-    margin-top: 0.625em;
-    height: fit-content;
-    width: 90%;
-}
-
 .infobox div img {
     height: fit-content;
     object-fit: scale-down;
@@ -220,6 +214,7 @@ article.infobox {
     padding-bottom: 0.625em;
     position: relative;
     background-image: none;
+    margin-bottom: 1em;
 }
 
 .infobox a {
