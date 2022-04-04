@@ -189,44 +189,16 @@ article h2 {
 /* --- Article not active --- */
 
 
-/* info box */
+/* info page */
 article.infobox {
-    display: none;
-    position: fixed;
-    top: 8vh;
-    left: 10%;
-    z-index: 1;
-    flex-direction: column;
-    align-items: center;
-    font-size: 14px;
-    background-color: darkgrey;
-}
-
-.infobox button, #bg-fade {
-    display: none;
-}
-
-.infobox .close_popup {
-    z-index: 3000;
-    display: flex;
-    align-self: flex-end;
-    position: relative;
-    height: 2em;
-    width: 2em;
     border: none;
-    background-color: transparent;
-    margin-right: 0.625em;
-    cursor: pointer;
+    width: 95vw;
 }
 
-.infobox .close_popup div {
-    position: absolute;
-    height: 1.625em;
-    width: 2px;
-    margin: 0;
-    background-color: black;
-    left: 50%;
-    top: 20%;
+#back {
+    margin-left: 0.5em;
+    font-size: 2em;
+    color: white;
 }
 
 .infobox div {
@@ -258,16 +230,4 @@ article.infobox {
 
 .popOn {
     overflow: hidden;
-}
-
-.close_popup div:first-of-type {
-    transform: rotate(45deg);
-}
-
-.close_popup div:last-of-type {
-    transform: rotate(135deg);
-}
-
-.infobox.active {
-    display: flex;
 }

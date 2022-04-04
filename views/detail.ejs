@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <%- include('./components/head.ejs') -%>
+  <body>
+    <header>
+        <a href="/" id="back"><</a>
+        <a href="/" id="refresh">
+            <h1>Rijksmuseum</h1>
+        </a>
+        <button id="search_btn">
+            <i class="fas fa-search"></i>
+        </button>
+    </header>
+      <article class="infobox">
+        <div>
+            <% if(data.hasImage == true){ %> <img class="detailImage" src= <%-
+            data.webImage.url.slice(0, -3) + "=s1000" %>> <% } %>
+        </div>
+        <h2><%- data.title %></h2>
+        <p><%- data.principalOrFirstMaker %></p>
+        </section>
+      </article>
+  </body>
+</html>
