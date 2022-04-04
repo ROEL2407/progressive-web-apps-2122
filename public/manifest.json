@@ -5,7 +5,6 @@
     "start_url": "/",
     "display": "standalone",
     "background_color": "#fff",
-    "theme_color": "#999",
     "description": "An app to look into the art items of Rijksmuseum.",
     "icons": [{
       "src": "images/icons/48x48.png",
