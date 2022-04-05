@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const compression = require('compression')
+const compression = require('compression');
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
