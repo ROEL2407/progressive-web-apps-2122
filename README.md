@@ -23,7 +23,7 @@ This repository is for my lessons from the minor Web Development from the HvA.
 In this repository I've made a overview of art object from the Rijksmuseum. My goal of this repo is to learn JavaScript more and understand it a bit better.
 
 ## Usage
-With this application you can look through some of the art objects Rijksmuseum has to offer. You can get more information about the pieces and make your own perspectives on it.
+With this application you can look through some of the art objects Rijksmuseum has to offer. You can get more information about the pieces and make your own perspectives on it. (note: as of now the search function doesn't work).
 
 ## Example images
 <img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/voorbeeld_overzicht.PNG">
@@ -34,22 +34,33 @@ Clone this repository to your own device:
 ```console
 git clone https://github.com/ROEL2407/progressive-web-apps-2122.git
 ```
-
-Use a local server to host the website. I use the Live server extension in Visual Studio Code to host.
+Then, in the terminal do:
+```console
+npm install
+```
+This project uses Nodemon. Because of hosting problems you need to change the npm start script from "node" to "nodemon"
 
 ## Online version
-If you don't want to download everything, there's an online version for you
- <!-- [here](https://roel2407.github.io/Rijksmuseum_overzicht/spa/). -->
+If you don't want to download everything, there's an online version for you [here](https://pwa-rijksmuseum-roel.herokuapp.com/).
+
+## Client side vs Server side rendering
+This project is based on my project for the subject Web App From Scratch. Rendering is loading the page. This can be done on your own device (client side) or on the server (server side). The biggest differences in my opinion is that server side loads the page faster and isn't effected by the option in the browser to disable JavaScript.
+
+## Critical render path optimalisations
+I also had time to take a look at optimalisations for the critical render path. 2 good optimalisations were not necessary for me as I don't have a situation where they are needed. These were as least as possible client side JavaScript as I don't have any aymore because I made it all server side JS. The other one was the css font-display for loading in extern fonts. I don't have use for that either as I don't load an external font.
+
+As for the optimalisations I have done, I've made a list:
+- Installed the Express Compression package
+- Changed my images to responsive images
+- Minifying my HTML and CSS
+
+Before the changes my page loaded in 1.49s and had a score of 96 on performance in lighthouse.
+
+After these changes, I have made the loading of the page 1.26 seconds and the score is 99.
 
 ## Activity Diagram(s)
-<!-- V1
-<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/activity_diagramv1.jpg">
-<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/activity_diagramv2.jpg">
-V2 -->
 
-## Rubric
-For this assignment I'm being rated on the folllowing points:
-<!-- <img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/Rubric_wafs.png"> -->
+
 
 ## Commits
 In this repo I will commit my work. To make this more visible for myself and others I've added little headers to the commit titles:
