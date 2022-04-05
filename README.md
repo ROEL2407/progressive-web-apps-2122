@@ -54,9 +54,9 @@ As for the optimalisations I have done, I've made a list:
 - Changed my images to responsive images
 - Minifying my HTML and CSS
 
+I have checked the difference these optimalisations have done on my localhost url.
 Before the changes my page loaded in 1.49s and had a score of 96 on performance in lighthouse.
-
-After these changes, I have made the loading of the page 1.26 seconds and the score is 99.
+After these changes, I have made the loading of the page 1.26 seconds and the score is 99. 
 
 ## Activity Diagram(s)
 
