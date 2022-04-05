@@ -13,8 +13,18 @@
     </header>
       <article class="infobox">
         <div>
-            <% if(data.hasImage == true){ %> <img class="detailImage" src= <%-
-            data.webImage.url.slice(0, -3) + "=s1000" %> alt="listenn to description"> <% } %>
+            <% if(data.hasImage == true){ %> 
+                <img src=<%- data.webImage.url.slice(0, -3) + "=s1000" %>
+                srcset="
+                    <%- data.webImage.url.slice(0, -3) + "=s1000" %> 1000w,
+                    <%- data.webImage.url.slice(0, -3) + "=s800" %> 800w,
+                    <%- data.webImage.url.slice(0, -3) + "=s600" %> 600w,
+                    <%- data.webImage.url.slice(0, -3) + "=s400" %> 400w,
+                    <%- data.webImage.url.slice(0, -3) + "=s200" %> 200w"
+                sizes="(max-width: 768px) 50vw,
+                100vw"
+                alt="<%- data.title %>">
+            <% } %>
         </div>
         <h2><%- data.title %></h2>
         <p><strong>Maker:</strong> <%- data.principalOrFirstMaker %></p><br />

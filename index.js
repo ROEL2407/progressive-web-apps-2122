@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const compression = require('compression')
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
@@ -10,6 +11,7 @@ const apiKey = process.env.APIKEY;
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
+app.use(compression());
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {

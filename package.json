@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ROEL2407/progressive-web-apps-2122#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "eslint": "^8.11.0",

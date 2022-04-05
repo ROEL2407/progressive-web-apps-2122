@@ -22,14 +22,21 @@
         <form id="filters" action="" class="">
         </form>
         <section id="artItems" class="loading">
-            <!-- <p>Er is niks om af te beelden, probeer opnieuw</p>
-            <a id="reload" href="">Probeer opnieuw</a> -->
 
             <% data.forEach(function(item) { %>
             <a href="/detail/<%- item.objectNumber %>" class="art" id="<%- item.id %>">
             <article>
                 <div>
-                    <img src=<%- item.webImage.url.slice(0, -3) + "=s1000" %> alt="<%- item.title %>">
+                    <img src=<%- item.webImage.url.slice(0, -3) + "=s1000" %>
+                    srcset="
+                        <%- item.webImage.url.slice(0, -3) + "=s1000" %> 1000w,
+                        <%- item.webImage.url.slice(0, -3) + "=s800" %> 800w,
+                        <%- item.webImage.url.slice(0, -3) + "=s600" %> 600w,
+                        <%- item.webImage.url.slice(0, -3) + "=s400" %> 400w,
+                        <%- item.webImage.url.slice(0, -3) + "=s200" %> 200w"
+                    sizes="(max-width: 768px) 50vw,
+                    100vw"
+                    alt="<%- item.title %>">
                 </div>
                 <h2><%- item.title %></h2>
             </article>

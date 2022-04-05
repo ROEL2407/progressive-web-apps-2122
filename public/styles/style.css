@@ -39,6 +39,7 @@ body {
 }
 
 body header {
+    min-height: 2em;
     position: relative;
     display: flex;
     flex-direction: row;
