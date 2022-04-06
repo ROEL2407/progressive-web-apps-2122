@@ -2,19 +2,20 @@
 
 ### Table of contents
 Assignment<br />
-[Where is this repository for?](https://github.com/ROEL2407/Rijksmuseum_overzicht#where-is-this-repository-for)<br />
-[What's the goal of this repository?](https://github.com/ROEL2407/Rijksmuseum_overzicht#whats-the-goal-of-this-repository)
+[Where is this repository for?](https://github.com/ROEL2407/progressive-web-apps-2122#where-is-this-repository-for)<br />
+[What's the goal of this repository?](https://github.com/ROEL2407/progressive-web-apps-2122#whats-the-goal-of-this-repository)
 
 Project<br />
-[Usage](https://github.com/ROEL2407/Rijksmuseum_overzicht#usage)<br />
-[Example images](https://github.com/ROEL2407/Rijksmuseum_overzicht#example-images)<br />
-[Installation](https://github.com/ROEL2407/Rijksmuseum_overzicht#installation)<br />
-[Online version](https://github.com/ROEL2407/Rijksmuseum_overzicht#online-version)<br />
-[Activity Diagram](https://github.com/ROEL2407/Rijksmuseum_overzicht#activity-diagrams)<br />
-[Rubric](https://github.com/ROEL2407/Rijksmuseum_overzicht#rubric)<br />
-[Commits](https://github.com/ROEL2407/Rijksmuseum_overzicht#commits)<br />
-[Resources](https://github.com/ROEL2407/Rijksmuseum_overzicht#resources)<br />
-[License](https://github.com/ROEL2407/Rijksmuseum_overzicht#license)
+[Usage](https://github.com/ROEL2407/progressive-web-apps-2122#usage)<br />
+[Example images](https://github.com/ROEL2407/progressive-web-apps-2122#example-images)<br />
+[Installation](https://github.com/ROEL2407/progressive-web-apps-2122#installation)<br />
+[Online version](https://github.com/ROEL2407/progressive-web-apps-2122#online-version)<br />
+[Server side vs client side rendering](https://github.com/ROEL2407/progressive-web-apps-2122#client-side-vs-server-side-rendering)<br />
+[Critical render path optimalisations](https://github.com/ROEL2407/progressive-web-apps-2122#critical-render-path-optimalisations)<br />
+[Activity Diagram](https://github.com/ROEL2407/progressive-web-apps-2122#activity-diagrams)<br />
+[Commits](https://github.com/ROEL2407/progressive-web-apps-2122#commits)<br />
+[Resources](https://github.com/ROEL2407/progressive-web-apps-2122#resources)<br />
+[License](https://github.com/ROEL2407/progressive-web-apps-2122#license)
 
 ## Where is this repository for?
 This repository is for my lessons from the minor Web Development from the HvA. 
@@ -59,7 +60,7 @@ Before the changes my page loaded in 1.49s and had a score of 96 on performance 
 After these changes, I have made the loading of the page 1.26 seconds and the score is 99. 
 
 ## Activity Diagram(s)
-
+<img src="https://github.com/ROEL2407/progressive-web-apps-2122/blob/main/readme-img/activity.jpg">
 
 
 ## Commits
