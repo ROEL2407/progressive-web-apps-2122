@@ -27,8 +27,8 @@ In this repository I've made a overview of art object from the Rijksmuseum. My g
 With this application you can look through some of the art objects Rijksmuseum has to offer. You can get more information about the pieces and make your own perspectives on it. (note: as of now the search function doesn't work).
 
 ## Example images
-<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/voorbeeld_overzicht.PNG">
-<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/voorbeeld_detail.PNG">
+<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/voorbeeld_overzicht.PNG?raw=true">
+<img src="https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/wiki_images/voorbeeld_detail.PNG?raw=true">
 
 ## Installation
 Clone this repository to your own device:
@@ -60,7 +60,7 @@ Before the changes my page loaded in 1.49s and had a score of 96 on performance 
 After these changes, I have made the loading of the page 1.26 seconds and the score is 99. 
 
 ## Activity Diagram(s)
-<img src="https://github.com/ROEL2407/progressive-web-apps-2122/blob/main/readme-img/activity.jpg">
+<img src="https://github.com/ROEL2407/progressive-web-apps-2122/blob/main/readme-img/activity.jpg?raw=true">
 
 
 ## Commits
